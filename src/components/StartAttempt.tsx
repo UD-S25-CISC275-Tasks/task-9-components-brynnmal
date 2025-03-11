@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import { Button } from "react-bootstrap";
 
 export function StartAttempt(): React.JSX.Element {
-<<<<<<< HEAD
   const [attempts, setAttempts] = useState<number>(4);
   const [isInProgress, setIsInProgress] = useState<boolean>(false);
   const StartQuiz = () => {
@@ -43,7 +42,3 @@ export function StartAttempt(): React.JSX.Element {
     </div>
   );
 }
-=======
-    return <div>Start Attempt</div>;
-}
->>>>>>> origin/task-components

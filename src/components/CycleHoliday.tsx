@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import { Button } from "react-bootstrap";
 
 export function CycleHoliday(): React.JSX.Element {
-<<<<<<< HEAD
     const [currentHoliday, setCurrentHoliday] = useState<string>("🎄");
     const holidaysAlphabetic = [
         { name: "Christmas", emoji: "🎄", date: "12-25" },
@@ -41,7 +40,4 @@ export function CycleHoliday(): React.JSX.Element {
             </div>
         </div>
     );
-=======
-    return <div>Cycle Holiday</div>;
->>>>>>> origin/task-components
 }
