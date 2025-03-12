@@ -8,6 +8,8 @@ import { CycleHoliday } from "./components/CycleHoliday";
 import { Counter } from "./components/Counter";
 import { DoubleHalf } from "./bad-components/DoubleHalf";
 import { ChooseTeam } from "./bad-components/ChooseTeam";
+import { ColoredBox } from "./bad-components/ColoredBox";
+import { ShoveBox } from "./bad-components/ShoveBox";
 
 function App(): React.JSX.Element {
     return (
@@ -31,6 +33,10 @@ function App(): React.JSX.Element {
             <DoubleHalf></DoubleHalf>
             <hr />
             <ChooseTeam></ChooseTeam>
+            <hr />
+            <ColoredBox></ColoredBox>
+            <hr/ >
+            <ShoveBox></ShoveBox>
         </div>
     );
 }
